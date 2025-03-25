@@ -29,7 +29,7 @@ export default function Dashboard() {
     useStore.getState().setUser(null);
     toast.success("Logged out successfully !");
 
-    router.push("/auth/login");
+    router.push("/login");
   };
 
   if (!user) return null;
